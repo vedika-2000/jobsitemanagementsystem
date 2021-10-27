@@ -19,13 +19,13 @@
 * [Features](#Features)
 * [Screenshots](#Screenshots)
 
-Getting Started
+## Getting Started
 We made this project entirly in "Localhost" using Apache or HTTP Server. Kindly follow the below mentioned instructions to run it on your machine.
 
-Prerequisites
+## Prerequisites
 You need only XAMPP to run this project on your local machine. XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl.
 
-Setup
+## Setup
 Git Clone the Repo or download the Project Zip file.
 
 Extract the files in the htdocs directory where you installed XAMPP. Lets assume you installed XAMPP in C drive. Then your path to htdocs will be,
