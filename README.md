@@ -4,8 +4,8 @@
 * Neha Khairnar- nehak2209pc@gmail.com
 * Prerna Shelke - prernashelke01@gmail.com
 * Vedika mamidwar - vkmamidwar_b19@it.vjti.ac.in
-* Shalini Gosavi - 
-* Shivani Rashinkar - 
+* Shalini Gosavi - gosavishalini000@gmail.com
+* Shivani Rashinkar - Shivanirashinkar25@gmail.com
 
 
 ## Table of Contents
