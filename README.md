@@ -159,9 +159,9 @@ expected by the job seeker and will also help companies to find the suitable can
 ```
 
 
-* GitHub repo link: [Link to repository](https://github.com/vedika-2000/jobsitemanagementsystem)
+## GitHub repo link: [Link to repository](https://github.com/vedika-2000/jobsitemanagementsystem)
 
-### Tech Stack
+## Tech Stack
 * PHP
 * HTML
 * CSS
@@ -170,11 +170,7 @@ expected by the job seeker and will also help companies to find the suitable can
 * JQuery
 * MySQL (DataBase)
 
-### File Structure
-```
-.
 
-```
 
 ## Features
 <!-- >How can your project do its part in solving a real-life problem? What are its possible applications? Describe here.-->
