@@ -158,10 +158,9 @@ expected by the job seeker and will also help companies to find the suitable can
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-
 ## GitHub repo link: [Link to repository](https://github.com/vedika-2000/jobsitemanagementsystem)
+### Tech Stack
 
-## Tech Stack
 * PHP
 * HTML
 * CSS
@@ -170,9 +169,8 @@ expected by the job seeker and will also help companies to find the suitable can
 * JQuery
 * MySQL (DataBase)
 
-
-
 ## Features
+
 <!-- >How can your project do its part in solving a real-life problem? What are its possible applications? Describe here.-->
 The Project provides many standardized features of a Job Portal. Below are some of the Key features.
 * Complete & seperate Register, Login & Working Panel for Jobseekers and Employers.
@@ -188,10 +186,8 @@ Many More...
 
 
 ## Screenshots 
-<!--
-!<img src="https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(580).png" height=450/> 
 
--->
+![ScreenShot](https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(580).png)
 
 <img src="https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(582).png" height=450/>
 
