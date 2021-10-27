@@ -9,6 +9,7 @@
 
 
 ## Table of Contents
+
 * [Getting Started](#Getting Started)
   * [Prerequisites](#Prerequisites)
   * [Setup](#Setup)
@@ -137,7 +138,7 @@ expected by the job seeker and will also help companies to find the suitable can
           </div><!-- /.modal -->
 ```
 ##### Table structure for table 
-```CREATE TABLE `tblapplicants` (
+CREATE TABLE `tblapplicants` (
   `APPLICANTID` int(11) NOT NULL,
   `FNAME` varchar(90) NOT NULL,
   `LNAME` varchar(90) NOT NULL,
@@ -156,9 +157,10 @@ expected by the job seeker and will also help companies to find the suitable can
   `APPLICANTPHOTO` varchar(255) NOT NULL,
   `NATIONALID` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-```
+
 
 ## GitHub repo link: [Link to repository](https://github.com/vedika-2000/jobsitemanagementsystem)
+
 ## Tech Stack
 
  - PHP
@@ -188,8 +190,6 @@ Many More...
 ## Screenshots 
 
 ![ScreenShot](https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(580).png)
-
-<img src="https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(582).png" height=450/>
 
 <img src="https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(583).png" height=450/>
 
