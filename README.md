@@ -136,7 +136,7 @@ expected by the job seeker and will also help companies to find the suitable can
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 ```
-##### Table structure for table `tblapplicants`
+##### Table structure for table 
 ```CREATE TABLE `tblapplicants` (
   `APPLICANTID` int(11) NOT NULL,
   `FNAME` varchar(90) NOT NULL,
@@ -159,28 +159,28 @@ expected by the job seeker and will also help companies to find the suitable can
 ```
 
 ## GitHub repo link: [Link to repository](https://github.com/vedika-2000/jobsitemanagementsystem)
-### Tech Stack
+## Tech Stack
 
-* PHP
-* HTML
-* CSS
-* JavaScript
-* Bootstrap
-* JQuery
-* MySQL (DataBase)
+ - PHP
+ - HTML
+ - CSS
+ - JavaScript
+ - Bootstrap
+ - JQuery
+ - MySQL (DataBase)
 
 ## Features
 
 <!-- >How can your project do its part in solving a real-life problem? What are its possible applications? Describe here.-->
 The Project provides many standardized features of a Job Portal. Below are some of the Key features.
-* Complete & seperate Register, Login & Working Panel for Jobseekers and Employers.
-* Search Jobs without Registering.
-* Detailed Profiles for both Jobseeker & Employer.
-* One click Job Apply for Jobseekers.
-* Track & View your Job Applications as a Jobseeker.
-* Post multiple Jobs & Track them as Employer.
-* View, Select or Reject Job Applications as Employer.
-* Notification Mail to the registered Email ID for Job Application, Selection etc.
+- Complete & seperate Register, Login & Working Panel for Jobseekers and Employers.
+- Search Jobs without Registering.
+- Detailed Profiles for both Jobseeker & Employer.
+- One click Job Apply for Jobseekers.
+- Track & View your Job Applications as a Jobseeker.
+- Post multiple Jobs & Track them as Employer.
+- View, Select or Reject Job Applications as Employer.
+- Notification Mail to the registered Email ID for Job Application, Selection etc.
 Many More... 
 
 
