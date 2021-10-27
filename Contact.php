@@ -5,7 +5,7 @@
 		<div class="row"> 
 							<div class="col-md-12">
 								<div class="about-logo">
-									<h3>Veermata Jeejabai Technological Institute</h3>
+									<h3>Veermata Jijabai Technological Institute</h3>
 									<p> VJTI Mumbai (estd. in 1887 as Victoria Jubilee Technical Institute) has pioneered India’s Engineering 
                                                                             education, research and training ecosystem. Pre-independence, VJTI had been instrumental in driving 
                                                                             industrial growth throughout united India. Post-independence, VJTI played a pivotally
@@ -17,7 +17,7 @@
 						</div>
 	<div class="row">
 								<div class="col-md-6">
-									<p>Veermata Jeejabai Technological Institute</p>
+									<p>Veermata Jijabai Technological Institute</p>
 								  	
 		   <!-- Form itself -->
           <form name="sentMessage" id="contactForm"  novalidate>
