@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-* [Getting Started](#Getting Started)
+* Getting Started
   * [Prerequisites](#Prerequisites)
   * [Setup](#Setup)
 * [About the Project](#about-the-project)
@@ -138,24 +138,24 @@ expected by the job seeker and will also help companies to find the suitable can
           </div><!-- /.modal -->
 ```
 ##### Table structure for table 
-CREATE TABLE `tblapplicants` (
-  `APPLICANTID` int(11) NOT NULL,
-  `FNAME` varchar(90) NOT NULL,
-  `LNAME` varchar(90) NOT NULL,
-  `MNAME` varchar(90) NOT NULL,
-  `ADDRESS` varchar(255) NOT NULL,
-  `SEX` varchar(11) NOT NULL,
-  `CIVILSTATUS` varchar(30) NOT NULL,
-  `BIRTHDATE` date NOT NULL,
-  `BIRTHPLACE` varchar(255) NOT NULL,
-  `AGE` int(2) NOT NULL,
-  `USERNAME` varchar(90) NOT NULL,
-  `PASS` varchar(90) NOT NULL,
-  `EMAILADDRESS` varchar(90) NOT NULL,
-  `CONTACTNO` varchar(90) NOT NULL,
-  `DEGREE` text NOT NULL,
-  `APPLICANTPHOTO` varchar(255) NOT NULL,
-  `NATIONALID` varchar(255) NOT NULL
+CREATE TABLE `tblapplicants` (\
+  `APPLICANTID` int(11) NOT NULL,\
+  `FNAME` varchar(90) NOT NULL,\
+  `LNAME` varchar(90) NOT NULL,\
+  `MNAME` varchar(90) NOT NULL,\
+  `ADDRESS` varchar(255) NOT NULL,\
+  `SEX` varchar(11) NOT NULL,\
+  `CIVILSTATUS` varchar(30) NOT NULL,\
+  `BIRTHDATE` date NOT NULL,\
+  `BIRTHPLACE` varchar(255) NOT NULL,\
+  `AGE` int(2) NOT NULL,\
+  `USERNAME` varchar(90) NOT NULL,\
+  `PASS` varchar(90) NOT NULL,\
+  `EMAILADDRESS` varchar(90) NOT NULL,\
+  `CONTACTNO` varchar(90) NOT NULL,\
+  `DEGREE` text NOT NULL,\
+  `APPLICANTPHOTO` varchar(255) NOT NULL,\
+  `NATIONALID` varchar(255) NOT NULL\
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
