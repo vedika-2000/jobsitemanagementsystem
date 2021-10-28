@@ -186,8 +186,199 @@ The Project provides many standardized features of a Job Portal. Below are some 
 Many More... 
 
 ## File Structure
-
-
+```
+jobsitemanagementsystem
+├───admin
+│   ├───applicants
+│   │   └───photos
+│   ├───autonumber
+│   ├───category
+│   ├───company
+│   ├───employee
+│   │   └───photos
+│   ├───theme
+│   ├───user
+│   │   └───photos
+│   └───vacancy
+├───applicant
+│   └───photos
+├───bootstrap
+│   ├───css
+│   ├───fonts
+│   └───js
+├───build
+│   ├───bootstrap-less
+│   │   └───mixins
+│   └───less
+│       └───skins
+├───dist
+│   ├───css
+│   │   └───skins
+│   ├───img
+│   │   └───credit
+│   └───js
+│       └───pages
+├───documentation
+│   └───build
+│       └───include
+├───include
+├───nbproject
+│   └───private
+├───pages
+│   ├───charts
+│   ├───examples
+│   ├───forms
+│   ├───layout
+│   ├───mailbox
+│   ├───tables
+│   └───UI
+├───plugins
+│   ├───bootstrap-slider
+│   ├───bootstrap-wysihtml5
+│   ├───chartjs
+│   ├───ckeditor
+│   │   ├───adapters
+│   │   ├───lang
+│   │   ├───plugins
+│   │   │   ├───a11yhelp
+│   │   │   │   └───dialogs
+│   │   │   │       └───lang
+│   │   │   ├───about
+│   │   │   │   └───dialogs
+│   │   │   │       └───hidpi
+│   │   │   ├───clipboard
+│   │   │   │   └───dialogs
+│   │   │   ├───dialog
+│   │   │   ├───fakeobjects
+│   │   │   │   └───images
+│   │   │   ├───image
+│   │   │   │   ├───dialogs
+│   │   │   │   └───images
+│   │   │   ├───link
+│   │   │   │   ├───dialogs
+│   │   │   │   └───images
+│   │   │   │       └───hidpi
+│   │   │   ├───magicline
+│   │   │   │   └───images
+│   │   │   │       └───hidpi
+│   │   │   ├───pastefromword
+│   │   │   │   └───filter
+│   │   │   ├───scayt
+│   │   │   │   └───dialogs
+│   │   │   ├───specialchar
+│   │   │   │   └───dialogs
+│   │   │   │       └───lang
+│   │   │   ├───table
+│   │   │   │   └───dialogs
+│   │   │   ├───tabletools
+│   │   │   │   └───dialogs
+│   │   │   └───wsc
+│   │   │       └───dialogs
+│   │   └───skins
+│   │       └───moono
+│   │           └───images
+│   │               └───hidpi
+│   ├───colorpicker
+│   │   └───img
+│   ├───datatables
+│   │   ├───extensions
+│   │   │   ├───AutoFill
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   ├───images
+│   │   │   │   └───js
+│   │   │   ├───ColReorder
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   ├───images
+│   │   │   │   └───js
+│   │   │   ├───ColVis
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   └───js
+│   │   │   ├───FixedColumns
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   └───js
+│   │   │   ├───FixedHeader
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   └───js
+│   │   │   ├───KeyTable
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   └───js
+│   │   │   ├───Responsive
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   │   ├───child-rows
+│   │   │   │   │   ├───display-control
+│   │   │   │   │   ├───initialisation
+│   │   │   │   │   └───styling
+│   │   │   │   └───js
+│   │   │   ├───Scroller
+│   │   │   │   ├───css
+│   │   │   │   ├───examples
+│   │   │   │   │   └───data
+│   │   │   │   ├───images
+│   │   │   │   └───js
+│   │   │   └───TableTools
+│   │   │       ├───css
+│   │   │       ├───examples
+│   │   │       ├───images
+│   │   │       │   └───psd
+│   │   │       ├───js
+│   │   │       └───swf
+│   │   └───images
+│   ├───datepicker
+│   │   └───locales
+│   ├───daterangepicker
+│   ├───fastclick
+│   ├───flot
+│   ├───font-awesome
+│   │   ├───css
+│   │   ├───fonts
+│   │   ├───less
+│   │   └───scss
+│   ├───fullcalendar
+│   ├───home-plugins
+│   │   ├───css
+│   │   │   └───fancybox
+│   │   ├───fonts
+│   │   │   └───customicon
+│   │   ├───img
+│   │   │   ├───slides
+│   │   │   └───works
+│   │   └───js
+│   │       ├───flexslider
+│   │       ├───google-code-prettify
+│   │       ├───portfolio
+│   │       └───quicksand
+│   ├───iCheck
+│   │   ├───flat
+│   │   ├───futurico
+│   │   ├───line
+│   │   ├───minimal
+│   │   ├───polaris
+│   │   └───square
+│   ├───input-mask
+│   │   └───phone-codes
+│   ├───ionslider
+│   │   └───img
+│   ├───jQuery
+│   ├───jQueryUI
+│   ├───jvectormap
+│   ├───knob
+│   ├───morris
+│   ├───pace
+│   ├───paralax
+│   ├───select2
+│   │   └───i18n
+│   ├───slimScroll
+│   ├───sparkline
+│   └───timepicker
+└───theme
+```
 ## Screenshots 
 
 ![ScreenShot](https://github.com/vedika-2000/jobsitemanagementsystem/blob/master/Screenshot%20(580).png)
