@@ -185,7 +185,114 @@ The Project provides many standardized features of a Job Portal. Below are some 
 - Notification Mail to the registered Email ID for Job Application, Selection etc.
 Many More... 
 
-
+## File Structure
+jobsitemanagementsystem
+	|___admin
+	|       |___applicants
+	|	|___autonumber
+	|	|___category
+	|	|___company
+	|	|___employee
+	|	|___theme
+	|	|___user
+	|	|___vacancy
+	|	|___home.php
+	|	|___index.php
+	|	|___login.php
+	|	|___logout.php
+	|	
+	|___applicant
+	|	|___photos
+	|	|___accounts.php
+	|	|___appliedjobs.php
+	|	|___controller.php
+	|	|___index.php
+	|	|___message.php
+	|	|___notification.php
+	|	|___profile.php
+	|	|___readmessage.php
+	|	|___viewjob.php
+	|
+	|___bootstrap
+	|	|___css
+	|	|___js
+	|	|___fonts
+	|
+	|___build
+	|	|___bootstrap-less
+	|	|	|___mixins
+	|	|___less
+	|
+	|___dist
+	|	|___css
+	|	|___js
+	|	|___fonts
+	|
+	|___documentation
+	|	|___build
+	|	|___docs.js
+	|	|___index.html
+	|	|___style.css
+	|
+	|___include
+	|	|___accounts.php
+	|	|___applicant.php
+	|	|___autonumbers.php
+	|	|___categories.php
+	|	|___company.php
+	|	|___config.php
+	|	|___database.php
+	|	|___employees.php
+	|	|___function.php
+	|	|___initialize.php
+	|	|___job.php
+	|	|___jobregistration.php
+	|	|___session.php
+	|	|___settings.php
+	|	|___sidebarFunction.php
+	|
+	|___nbproject
+	|	|___private
+	|	|___project.properties
+	|	|___project.xml
+	|
+	|___pages
+	|	|___charts
+	|	|___examples
+	|	|___forms
+	|	|___layout
+	|	|___mailbox
+	|	|___tables
+	|	|___UI
+	|	|___calendar.html
+	|	|___widgets.html
+	|
+	|___plugins
+	|___theme
+	|	|___templates.php
+	|
+	|___About.php
+	|___advancesearch.php
+	|___advancesearchresult.php
+	|___applicantform.php
+	|___applicationform.php
+	|___category.php
+	|___company.php
+	|___Contact.php
+	|___erisdb.sql
+	|___hirring.php
+	|___home.php
+	|___index.php
+	|___login.php
+	|___logout.php
+	|___process.php
+	|___register.php
+	|___searchbycompany.php
+	|___searchbyfunction.php
+	|___searchbytitle.php
+	|___success.php
+	|___viewjob.php
+	 
 
 ## Screenshots 
 
